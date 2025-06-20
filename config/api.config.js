@@ -11,8 +11,8 @@ module.exports = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
   // You MUST add CLIEND_ID & SECRET_KEY in YOUT Vercel Project's Setting: Environment Variables (Key & Value)
-  clientId: process.env.CLIENT_ID  || '',
-  obfuscatedClientSecret: process.env.SECRET_KEY  || '',
+  clientId: process.env.CLIENT_ID  || 'd19f9d8b-ab78-48cf-ad1b-781f550c1a01',
+  obfuscatedClientSecret: process.env.SECRET_KEY  || '3tO8Q~c1DT2kFzZfkGlkHgkBqCsDPyAoMYiW4bqb',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
