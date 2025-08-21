@@ -40,7 +40,7 @@ params.append('client_secret', clientSecret)
 6. 访问具体的应用，然后获取access_token，登录成功。
 
 7. 在vercel里面加了下面几个环境变量
-   ```
+```
 CLIENT_ID
 SECRET_KEY
 USER_PRINCIPAL_NAME
