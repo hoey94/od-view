@@ -53,7 +53,7 @@ export async function getAccessToken(): Promise<string> {
   const body = new URLSearchParams()
   body.append('client_id', clientId)
   body.append('redirect_uri', apiConfig.redirectUri)
-  body.append('client_secret', clientSecret)
+  body.append('client_secret', 'pL28Q~jPjRW.E6mJFsXYgbs8I0w~x7_aGFS6tbHj')
   body.append('refresh_token', refreshToken)
   body.append('grant_type', 'refresh_token')
 
